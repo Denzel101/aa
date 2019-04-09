@@ -23,7 +23,7 @@ switch ($tag) {
         if ($newloginmech){
             $response['success']=1;
             $response['det']= $newloginmech;
-            $response['msg']="successfully logged in mechanics";
+            $response['msg']="successfully logged in mechanics lol";
         }else{
             $response['det']= null;
             $response['success']=0;
